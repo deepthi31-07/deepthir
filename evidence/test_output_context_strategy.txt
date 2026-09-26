@@ -1,0 +1,403 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- /opt/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace
+plugins: anyio-4.14.1
+collecting ... collected 30 items / 49 errors
+
+==================================== ERRORS ====================================
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_assemble.py _
+import file mismatch:
+imported module 'tests.test_assemble' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_assemble.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_assemble.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_case_facts.py _
+import file mismatch:
+imported module 'tests.test_case_facts' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_case_facts.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_case_facts.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_compressor.py _
+import file mismatch:
+imported module 'tests.test_compressor' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_compressor.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_compressor.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_pruner.py _
+import file mismatch:
+imported module 'tests.test_pruner' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_pruner.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_pruner.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_tokens.py _
+import file mismatch:
+imported module 'tests.test_tokens' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_tokens.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_tokens.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_transcript.py _
+import file mismatch:
+imported module 'tests.test_transcript' has this __file__ attribute:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/solution/tests/test_transcript.py
+which is not the same as the test file we want to collect:
+  /workspace/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_transcript.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ============================
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/01-prune-tool-output/starter/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/solution/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/02-case-facts-block/starter/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/solution/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/03-compress-with-budget/starter/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/solution/tests/test_transcript.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_antipatterns.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_assemble.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_case_facts.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_compressor.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_pruner.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_tokens.py
+ERROR Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter/tests/test_transcript.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 49 errors during collection !!!!!!!!!!!!!!!!!!!
+============================== 49 errors in 1.01s ==============================

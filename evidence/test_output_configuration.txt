@@ -1,0 +1,60 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- /opt/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace
+plugins: anyio-4.14.1
+collecting ... collected 35 items / 7 errors
+
+==================================== ERRORS ====================================
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/starter/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/starter/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/solution/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/solution/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/starter/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/starter/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/solution/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/solution/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/starter/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/starter/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/solution/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/solution/tests/conftest.py'))
+_ ERROR collecting Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/starter/tests _
+/opt/venv/lib/python3.13/site-packages/_pytest/config/__init__.py:712: in _importconftest
+    mod = import_path(
+/opt/venv/lib/python3.13/site-packages/_pytest/pathlib.py:610: in import_path
+    raise ImportPathMismatchError(module_name, module_file, path)
+E   _pytest.pathlib.ImportPathMismatchError: ('tests.conftest', '/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/solution/tests/conftest.py', PosixPath('/workspace/Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/starter/tests/conftest.py'))
+=========================== short test summary info ============================
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/01-compose-modular-claude-code-configuration/starter/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/solution/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/02-author-project-scoped-review-command/starter/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/solution/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/03-author-forked-deploy-check-skill/starter/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/solution/tests
+ERROR Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/starter/tests
+!!!!!!!!!!!!!!!!!!! Interrupted: 7 errors during collection !!!!!!!!!!!!!!!!!!!!
+============================== 7 errors in 1.26s ===============================

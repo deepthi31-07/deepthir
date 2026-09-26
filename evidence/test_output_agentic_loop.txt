@@ -1,0 +1,171 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- /opt/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace
+plugins: anyio-4.14.1
+collecting ... collected 29 items / 20 errors
+
+==================================== ERRORS ====================================
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_fixtures.py _
+import file mismatch:
+imported module 'tests.test_fixtures' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_fixtures.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_fixtures.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_loop.py _
+import file mismatch:
+imported module 'tests.test_loop' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_loop.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_loop.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_tools.py _
+import file mismatch:
+imported module 'tests.test_tools' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_tools.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_tools.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_fixtures.py _
+import file mismatch:
+imported module 'tests.test_fixtures' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_fixtures.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_fixtures.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_loop.py _
+import file mismatch:
+imported module 'tests.test_loop' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_loop.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_loop.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_tools.py _
+import file mismatch:
+imported module 'tests.test_tools' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_tools.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_tools.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_fixtures.py _
+import file mismatch:
+imported module 'tests.test_fixtures' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_fixtures.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_fixtures.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_loop.py _
+import file mismatch:
+imported module 'tests.test_loop' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_loop.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_loop.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_tools.py _
+import file mismatch:
+imported module 'tests.test_tools' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_tools.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_tools.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_fixtures.py _
+import file mismatch:
+imported module 'tests.test_fixtures' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_fixtures.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_fixtures.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_loop.py _
+import file mismatch:
+imported module 'tests.test_loop' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_loop.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_loop.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_tools.py _
+import file mismatch:
+imported module 'tests.test_tools' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_tools.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_tools.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_antipatterns.py _
+import file mismatch:
+imported module 'tests.test_antipatterns' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_antipatterns.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_antipatterns.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_fixtures.py _
+import file mismatch:
+imported module 'tests.test_fixtures' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_fixtures.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_fixtures.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_loop.py _
+import file mismatch:
+imported module 'tests.test_loop' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_loop.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_loop.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_tools.py _
+import file mismatch:
+imported module 'tests.test_tools' has this __file__ attribute:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/solution/tests/test_tools.py
+which is not the same as the test file we want to collect:
+  /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_tools.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ============================
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_antipatterns.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_fixtures.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_loop.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/01-loop/starter/tests/test_tools.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_antipatterns.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_fixtures.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_loop.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/solution/tests/test_tools.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_antipatterns.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_fixtures.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_loop.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/02-tools-and-audit/starter/tests/test_tools.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_antipatterns.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_fixtures.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_loop.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/tests/test_tools.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_antipatterns.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_fixtures.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_loop.py
+ERROR Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/starter/tests/test_tools.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 20 errors during collection !!!!!!!!!!!!!!!!!!!
+============================== 20 errors in 0.48s ==============================
